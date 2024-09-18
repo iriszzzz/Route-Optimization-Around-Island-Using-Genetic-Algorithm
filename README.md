@@ -101,13 +101,13 @@ All data is consolidated into a single CSV file, removing initial restrictions f
     <img src="https://imgur.com/qMoJUTM.png" width="240" height="160">
     <img src="https://imgur.com/qEujLFA.png" width="240" height="160">
     <img src="https://imgur.com/0GrMDfM.png" width="244" height="160">
-</div>
+</div>-->
 <br><br>
 
 👨‍🏫 Advicing Professor : CHUN-CHENG LIN<br>
-👧 Team members : WAN-CHIN TSAI
+👧 Team members : WAN-CHIN TSAI, HSIN-YI PAI, CHIH-CHUN CHANG, CHING-CHUN LAI
 
-###### tags:  `Database` `Database management system(DBMS)` `MySQL` `PHP` `CSS` `appserv` `PHPmyadmin` `visual studio` `ER diagram`-->
+###### tags:  `Genetic Algorithm` `Google API` `Python` `Vue` `HTML` `CSS` `JS` `Visual Studio`
 
 
 > 🔍 Watch MORE ➜ [My GitHub](https://github.com/iriszzzz)
