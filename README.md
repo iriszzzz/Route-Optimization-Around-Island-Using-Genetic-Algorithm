@@ -58,6 +58,64 @@ Rating is weighted higher than distance (1 vs. -1). The algorithm generates one 
 ### 2.4 Full Route Optimization
 All data is consolidated into a single CSV file, removing initial restrictions for a more flexible, globally optimized route.
 
+## 3. Research Results
+
+### 1. Scenic Spot Itinerary
+We planned a route starting from NCTU, traveling counterclockwise through Miaoli, Taichung, and Nantou, and finally back to Taipei. The spots are as follows:
+
+**Starting point:** NCTU  
+**Miaoli:** Maoli Mountain Park ⮕ Gongweixu Tunnel ⮕ Golden Town Leisure Farm  
+**Taichung:** Lihpao Metasequoia Road ⮕ Dakeng No. 8 Hiking Trail ⮕ Green Sky Railway 1908  
+**Nantou:** Nantou Lantern Festival Water Plaza ⮕ Zhongxing New Village Parent-Child Park  
+**Yunlin:** Douliu Seed Park ⮕ Taiping Old Street  
+**Chiayi:** Puzi River Cycling Path ⮕ Hebao Islet Ecological Park  
+**Tainan:** Hollyhock Flower Festival ⮕ Chihkan Cultural Park ⮕ Barkley Memorial Park  
+**Kaohsiung:** Gangshan Park ⮕ Pier-2 Art Center  
+**Pingtung:** Shuangliu Waterfall Trail ⮕ Taiwan’s Southernmost Point ⮕ Longpan Park  
+**Taitung:** South Cross-Island Highway ⮕ Taimali Level Crossing ⮕ Water Flows Uphill  
+**Hualien:** Fuli Flower Fields ⮕ Pacific Park  
+**Yilan:** Bambi Hills ⮕ Luodong Forestry Culture Garden  
+**New Taipei:** Yin-Yang Sea ⮕ Jinguashi Geological Park ⮕ Golden Waterfall  
+**Taipei:** Rongjin Life Park ⮕ National Palace Museum  
+**Taoyuan:** Sky Rope Bridge ⮕ Daxi Zhongzheng Park ⮕ Daxi Riverside Park  
+**Hsinchu:** Lee Kecheng Residence ⮕ Chenghuang Temple Plaza ⮕ Hsinchu Park ⮕ Back to NCTU
+
+### 2. Scooter Riding Path
+The riding path between the above spots was mapped using MyMap, and due to the genetic algorithm rules, some scenic spots are distributed around a center point.
+
+### 3. Website Display
+Using Vue.js, we successfully built a website. You can access it via the QR Code below. The website includes features such as zooming and switching between satellite and terrain views.
+
+### 4. Route Comparison Analysis
+Here’s a comparison between our route and a blog from the internet:
+
+| Metric           | Our Method - GA    | Blog Route (also counterclockwise) |
+| ---------------- | ------------------ | ---------------------------------- |
+| Total distance    | 1360.9 km          | 1218 km                            |
+| Riding difficulty | 123.718 km/day     | 150-200 km/day                     |
+| Days              | 11 days            | 9 days                             |
+| Number of spots   | 74                 | 42                                 |
+
+## 5. Feasibility Analysis
+We analyzed the feasibility from three aspects and believe this route is viable:
+- **Riding Distance:** Daily riding distance is moderate
+- **Spot Ratings:** The selected spots have good reviews and high ratings
+- **Personal Needs:** Flexible adjustment of lodging and meal times
+
+## 4. Conclusion and Future Outlook
+
+In this project, we implemented a genetic algorithm to plan a round-island route based on personal preferences and distances, with the results displayed on the website. Two areas for future optimization:
+1. **Algorithm:** Adjust parameters, optimize starting point settings
+2. **Website:** Add more detailed route planning between spots
+
+## 5. References
+1. Ying-Cheng Huang (2005), "A Study on Recreational Route Planning Models", Master's Thesis, Chaoyang University of Technology.
+2. Guang-Sheng Li (2009), "Application of Genetic Algorithms in Hualien City Travel Itinerary Optimization", Master's Thesis, National Dong Hwa University.
+3. You-Cheng Chen (2008), "A Travel Itinerary Planning System Based on Travel Pushing Algorithms", Master's Thesis, Tamkang University.
+4. Chi-An Lu (2009), "Tourism Planning System with Accommodation and Interest Spots Considerations", Master's Thesis, Tamkang University.
+5. Yu-Ting Wang (2010), "Application of Genetic Algorithms in Multi-day Travel Itinerary Planning", Master's Thesis, Chang Jung Christian University.
+
+
 <!--
 ## Feature
 1. User Capabilities:
