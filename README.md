@@ -39,6 +39,9 @@ We aim to calculate the optimal route using Google Maps API and a Genetic Algori
 - **New Taipei:** Wenshan Caotang, Shiding Crocodile Island
 - **Taipei:** Rongjin Time Living Park, National Palace Museum
 - **Taoyuan:** Senlin Riverside Café, Daxi Old Street
+<div align="center">
+    <img src="https://i.imgur.com/PAY28UY.png" width="200">
+</div>
 
 ## 2. Research Methodology
 
@@ -87,6 +90,9 @@ The riding path between the above spots was mapped using MyMap, and due to the g
 
 ### 3. Website Display
 Using Vue.js, we successfully built a website. You can access it via the QR Code below. The website includes features such as zooming and switching between satellite and terrain views.
+<div align="center">
+    <img src="https://i.imgur.com/Gn3MeP2.png" width="500">
+</div>
 
 ### 4. Route Comparison Analysis
 Here’s a comparison between our route and a blog from the internet:
