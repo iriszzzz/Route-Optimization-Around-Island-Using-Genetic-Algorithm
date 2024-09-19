@@ -1,7 +1,7 @@
 # Route-Optimization-Around-Island-Using-Genetic-Algorithm
 > This note record and share the final project of [GA course](https://timetable.nycu.edu.tw/?r=main/crsoutline&Acy=112&Sem=2&CrsNo=517408&lang=zh-tw) about developing an optimized route planning system for customized needs and deploying the result on website.
 
-# Project Overview
+# 👀 Project Overview
 
 ## 1. Research Background and Purpose
 
@@ -51,7 +51,9 @@ Using Google Maps API, we calculate distances between attractions, storing them 
 
 ### 2.3 Optimal Route Generation
 We use the following fitness function:
-value = rating * 1 - total_distance
+>
+    value = rating * 1 - total_distance 
+    
 
 Rating is weighted higher than distance (1 vs. -1). The algorithm generates one route, which may have a reverse option, but we focus on a counterclockwise direction, favoring north-to-south paths along the west coast. Each county's "local optimal route" is combined to form the final "Best Round-the-Island Route."
 
@@ -98,9 +100,9 @@ Here’s a comparison between our route and a blog from the internet:
 
 ## 5. Feasibility Analysis
 We analyzed the feasibility from three aspects and believe this route is viable:
-- **Riding Distance:** Daily riding distance is moderate
-- **Spot Ratings:** The selected spots have good reviews and high ratings
-- **Personal Needs:** Flexible adjustment of lodging and meal times
+- [x] **Riding Distance:** Daily riding distance is moderate
+- [x] **Spot Ratings:** The selected spots have good reviews and high ratings
+- [x] **Personal Needs:** Flexible adjustment of lodging and meal times
 
 ## 4. Conclusion and Future Outlook
 
