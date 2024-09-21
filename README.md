@@ -89,7 +89,7 @@ The riding path between the above spots was mapped using MyMap, and due to the g
 Using Vue.js, we successfully built a website. You can access it via the QR Code below. The website includes features such as zooming and switching between satellite and terrain views.
 <div align="center">
     <img src="https://i.imgur.com/PAY28UY.png" height="250"> &nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://i.imgur.com/Gn3MeP2.png" height="250">
+    <img src="https://i.imgur.com/Lc3iPeA.jpg" height="250">
 </div>
 
 ### 4. Route Comparison Analysis
